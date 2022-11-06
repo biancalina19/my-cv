@@ -1,0 +1,29 @@
+{
+  "name": "my-cv",
+  "version": "1.0.0",
+  "description": "FIRST PROJECT",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=web",
+    "deploy": "gulp build --production --lang=en && gulp deploy --production && gulp clean:ghpages --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biancalina19/my-cv.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "web",
+    "developer"
+  ],
+  "author": "Alina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biancalina/my-cv/issues"
+  },
+  "homepage": "https://github.com/biancalina/my-cv#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
